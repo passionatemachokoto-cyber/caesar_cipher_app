@@ -1,5 +1,5 @@
 def caesar_cipher(message, shift):
-    alphabet='abcdefghijklmnopqrstuv'
+    alphabet='abcdefghijklmnopqrstuvwxyz'
     result=""
     for char in message:
         if char.lower() in alphabet:    #check if the character is a letter

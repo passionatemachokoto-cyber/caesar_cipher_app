@@ -2,7 +2,7 @@ def caesar_cipher(message, shift):
     alphabet='abcdefghijklmnopqrstuvwxyz'
     result=""
     for char in message:
-        if char.lower() in alphabet:    #check if the character is a letter
+        if char.lower() in alphabet:   #check if the character is a letter
             index= alphabet.find(char.lower())
             new_index=(index+shift)%26
             new_char=alphabet[new_index]
